@@ -645,6 +645,18 @@ h1 {
     rgba(255, 255, 255, 0.88);
 }
 
+.quote-mascot {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.quote-mascot img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
 .quote {
   max-width: 26ch;
   margin: 0 0 14px;
@@ -683,8 +695,8 @@ h1 {
 }
 
 .contact-brand img {
-  width: 62px;
-  height: 62px;
+  width: 74px;
+  height: 74px;
   object-fit: contain;
   flex: 0 0 auto;
 }
@@ -739,6 +751,10 @@ h1 {
   .section-heading-graphic {
     align-items: start;
     flex-direction: column;
+  }
+
+  .quote-mascot {
+    justify-content: flex-start;
   }
 
   .hero {
